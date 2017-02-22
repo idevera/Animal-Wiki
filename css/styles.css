@@ -1,0 +1,10 @@
+body {
+	text-align: center;
+}
+
+img {
+	height: auto;
+	width: auto;
+	max-width: 300px;
+	max-height: 300px;
+}
