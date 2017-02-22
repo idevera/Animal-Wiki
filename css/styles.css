@@ -8,3 +8,7 @@ img {
 	max-width: 300px;
 	max-height: 300px;
 }
+
+#redpanda-show, #dingo-show, #riverotter-show {
+	display: none;
+}

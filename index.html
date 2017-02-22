@@ -3,8 +3,9 @@
 	<head>
 		<link href="css/bootstrap.css" rel="stylesheet" type="text/css">
 		<link href="css/styles.css" rel="stylesheet" type="text/css">
-		<script src="js/jquery-3.3.1.js"></script>
+		<script src="js/jquery-3.1.1.js"></script>
 		<script src="js/scripts.js"></script>
+		<title>Animal Wiki</title>
 	</head>
 	<body>
 		<div class="container">
@@ -15,34 +16,37 @@
 			<div class="row">
 				<div class="col-md-4">
 					<p>
-						<button type="button" class="btn btn-primary btn-lg btn">Red Panda</button>
+						<button type="button" class="btn btn-primary btn-lg btn" id="redpanda">Red Panda</button>
 					</p>
 				</div>
 				<div class="col-md-4">
 					<p>
-						<button type="button" class="btn btn-primary btn-lg btn block">Dingo</button>
+						<button type="button" class="btn btn-primary btn-lg btn block" id="dingo">Dingo</button>
 					</p>
 				</div>
 				<div class="col-md-4">
 					<p>
-						<button type="button" class="btn btn-primary btn-lg btn block">River Otter</button>
+						<button type="button" class="btn btn-primary btn-lg btn block" id="riverotter">River Otter</button>
 					</p>
 				</div>
 			</div>
 		</div>
 
-			<!-- Information will appear-->
-
-		<div class="container">
+	<!-- Information will appear when a button is clicked-->
+	
+		<div class="container" id="redpanda-show">
 			<img src="img/redpanda.jpg" alt="Red Panda" class="img-circle">
+			<p>The red panda shares the giant panda's rainy, high-altitude forest habitat, but has a wider range. Red pandas live in the mountains of Nepal and northern Myanmar (Burma), as well as in central China. These animals spend most of their lives in trees and even sleep aloft.</p>
 		</div>
 
-		<div class="container">
+		<div class="container" id="dingo-show">
 			<img src="img/dingo.jpg" alt="Dingo" class="img-circle">
+			<p>The 'dingo" is a wild canine found in Australia. Its exact ancestry is unknown, but dingoes are classified as their own unique canine species. The dingo is the largest terrestrial predator in Australia, and plays an important role as an apex predator. However, the dingo is seen as a pest by livestock farmers due to attacks on animals. Conversely, their predation on rabbits, kangaroos and rats may be of benefit to graziers.</p>
 		</div>
 
-		<div class="container">
+		<div class="container" id="riverotter-show">
 			<img src="img/riverotter.jpg" alt="River Otter" class="img-circle">
+			<p>The North American river otter (Lontra canadensis), also known as the northern river otter or the common otter, is a semiaquatic mammal endemic to the North American continent found in and along its waterways and coasts. An adult river otter can weigh between 5.0 and 14 kg (11.0 and 30.9 lb). The river otter is protected and insulated by a thick, water-repellent coat of fur.</p>
 		</div>
 	</body>
 </html>
